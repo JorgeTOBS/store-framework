@@ -5,25 +5,24 @@
     color: black;
     border: 2px solid black;
     padding: 24px;
-
+    font-weight: bold;
     
 }
 .infoCardContainer{
     max-width: 1260px;
     margin: 0 auto;
     padding:0;
-    font-weight: bold;
 }
 
 .infoCardCallActionContainer :global(.vtex-button) {
     color: white;
-    background-color: white;
+    background-color: grey;
     border: transparent;
 }
 
 .infoCardCallActionContainer :global(.vtex-button):hover {
     color: gray;
-    background-color: blue;
+    background-color: white;
     border: transparent;
 }
 .infoCardContainer--vintage {
