@@ -14,17 +14,16 @@
   "responsive-layout.mobile#mobile": {
     "children": ["rich-text#mobile","image#mobile"]
   },
-  
   "rich-text#desktop": {
     "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "text": "<h3># Your Coffee, Your Way \n ### New Coffee Makers Collection</h3>",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
   },
   "rich-text#mobile": {
     "props": {
-      "text": "# Your Coffee, Your Way \n ### New Coffee Makers Collection",
+      "text": "<h4># Your Coffee, Your Way \n ### New Coffee Makers Collection</h4>",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
@@ -80,11 +79,6 @@
       "headline": "Time to rethink your kitchen",
       "callToActionText": "Discover",
       "textPosition": "center"
-    }
-  },
-  "rich-text#deletar": {
-    "props": {
-      "text": "I'll be deleted soon"
     }
   }
 }
